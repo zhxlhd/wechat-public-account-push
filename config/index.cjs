@@ -54,7 +54,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oG-5z6twAYTRw-iDIf8wX0xE18LQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'WKe7ypRuOvQkZAFBgkmpX0OLLbpWLFNVHKAx12uBMI4',
+      useTemplateId: 'qP4ZBbAxEck46IXJojr85ijoIaGxliPmUHIxCP_sicU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-19',
       festivals: [
@@ -86,7 +86,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oG-5z6twAYTRw-iDIf8wX0xE18LQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'blkeg5FbSKm1-t744gV20rqJla-XaoIuA51vpUjiAmw',
+      useTemplateId: 'GvuEHmUEgmD_onlQR0al8hy0YjI0iGygz-Z57niQJiE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-19',
       festivals: [
@@ -143,8 +143,9 @@ const USER_CONFIG = {
       contents: [
         '因为太喜欢你，所以看谁都像是情敌。',
         '申请成为你爱里的永久居民。',
-        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-        '遇见你，就好像捡到了100斤的运气'
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我。',
+        '遇见你，就好像捡到了100斤的运气。'
+        '纵是这花花世界有千般好万般秒与我又有何干？我已有你，足矣！'
       ],
     }
   ]
