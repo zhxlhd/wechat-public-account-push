@@ -79,7 +79,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2023-09-09' },
       ],
-    },,
+    },
     {
       // 想要发送的人的名字
       name: '自己',
