@@ -22,7 +22,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oG-5z6twAYTRw-iDIf8wX0xE18LQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '2gOYor5mOmydTBtKS7OTwM8gYFi3fnD7OxAEvBP5tP0',
+      useTemplateId: 'pr7S3LiKhMfY580blldlbVCW8QP1UOmHNqZ-7jgr89A',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-19',
       festivals: [
@@ -54,7 +54,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oG-5z6twAYTRw-iDIf8wX0xE18LQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'l5GPgb8-hVw07Vr2ociszmE43-KMD4zo5MB-qDoFxpA',
+      useTemplateId: 'WKe7ypRuOvQkZAFBgkmpX0OLLbpWLFNVHKAx12uBMI4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-19',
       festivals: [
@@ -68,6 +68,44 @@ const USER_CONFIG = {
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '02-12',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 相识日子
+        { keyword: 'meet_day', date: '2023-02-12' },
+        // 在一起的日子
+        { keyword: 'love_day', date: '2023-04-19' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2023-09-09' },
+      ],
+    },,
+    {
+      // 想要发送的人的名字
+      name: '自己',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oG-5z6twAYTRw-iDIf8wX0xE18LQ',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'blkeg5FbSKm1-t744gV20rqJla-XaoIuA51vpUjiAmw',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '04-19',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '张同学的农历', year: '1991', date: '03-14',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '张同学的阳历', year: '1991', date: '04-19',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2023', date: '02-12',
+        },
+        {
+          type: '*生日', name: '你的农历', year: '1985', date: '10-01',
+        },
+        {
+          type: '生日', name: '你的阳历', year: '1985', date: '11-17',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
