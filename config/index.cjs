@@ -14,38 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '',
 
   PROVINCE: '广东',
-  CITY: '惠州',
-  // 功能开关,打开：true，关闭：false
-  SWITCH: {
-    /** 每日天气 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    weather: true,
-    /** 节假日 */
-    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts: true,
-    /** 每日N句 */
-    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    CIBA: true,
-    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    oneTalk: true,
-    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    earthyLoveWords: true,
-    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: false,
-    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: false,
-    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: false,
-    /** 星座运势 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    horoscope: true,
-    /** 生日消息和节日消息 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    birthdayMessage: true,
-    /** 学生课表 */
-    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: false,
-  },
+  CITY: '深圳',
   USERS: [
     {
       // 想要发送的人的名字
@@ -53,7 +22,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oG-5z6twAYTRw-iDIf8wX0xE18LQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'zF6mN0rGbmrrJAbzTcpqHx1u7kgG6e7YdLrORm3SUIo',
+      useTemplateId: 'OcYXghgNkePRJqlqFnE8sWwkFQ6_rkCIrMSm3x2prBA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '04-19',
       festivals: [
