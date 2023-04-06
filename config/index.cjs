@@ -20,7 +20,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '张同学小朋友',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oG-5z6h46tO8s7203uFnzwZsVhQg',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'hPH_2d1LxfrGcC7ZceyF9lq917lZwMyyez_fIsEAVKI',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -52,7 +52,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '张同学小朋友',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oG-5z6h46tO8s7203uFnzwZsVhQg',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Eh13RZblltCcj6sPc2x6HlD-m4yKNBjs4Fb2rqJI0pU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
